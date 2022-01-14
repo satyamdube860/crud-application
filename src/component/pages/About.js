@@ -1,6 +1,6 @@
 import React from "react";
-import watch from "/Users/satyam dubey/crud/src/assets/watch1.jpg";
-import watch2 from "/Users/satyam dubey/crud/src/assets/watch2.jpg"
+import watch from "../../assets/watch1.jpg";
+
 const About = () => {
   return (
     <div className="container">
