@@ -24,7 +24,7 @@ const EditUser = () => {
         setUser(result.data);
       };
     loadUser();
-  }, [user]);
+  }, [user,id]);
 
 
 

@@ -17,7 +17,7 @@ const User = () => {
         setUser(res.data);
       };
     loadUser();
-  }, [user]);
+  }, [user,id]);
 
   return (
     <div className="container py-4">
